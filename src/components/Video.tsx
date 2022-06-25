@@ -1,4 +1,6 @@
-import { DiscordLogo, Lightning, FileArrowDown, CaretRight } from 'phosphor-react';
+import { FileArrowDown, CaretRight } from 'phosphor-react';
+
+import { Button } from './Button';
 
 export function Video() {
   return (
@@ -34,15 +36,9 @@ export function Video() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <a href="" className="p-4 text-sm bg-green-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
-              <DiscordLogo size={24} />
-              Comunidade no Discord
-            </a>
+            <Button variant='comunidade' />
 
-            <a href="" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-gray-900 transition-colors">
-              <Lightning size={24} />
-              Acesse o desafio
-            </a>
+            <Button variant='desafio' />
           </div>
         </div>
 
@@ -58,7 +54,7 @@ export function Video() {
               </strong>
 
               <p className="text-sm text-gray-200 mt-6">
-                Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ducimus odio dolorem quia deserunt sunt, soluta modi. Suscipit, impedit, tenetur. Quos accusantium similique beatae magnam. Consequatur deleniti, repudiandae enim quia.
+                Acesse o meterial complementar.
               </p>
             </div>
 
@@ -78,7 +74,7 @@ export function Video() {
               </strong>
 
               <p className="text-sm text-gray-200 mt-6">
-                Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ducimus odio dolorem quia deserunt sunt, soluta modi. Suscipit, impedit, tenetur. Quos accusantium similique beatae magnam. Consequatur deleniti, repudiandae enim quia.
+                Adiquira os wallpapers exclusívos.
               </p>
             </div>
 

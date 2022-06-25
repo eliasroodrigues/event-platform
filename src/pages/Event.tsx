@@ -1,6 +1,7 @@
 import { Header } from '../components/Header';
 import { Video } from '../components/Video';
 import { Sidebar } from '../components/Sidebar';
+import { Footer } from '../components/Footer';
 
 export function Event() {
   return (
@@ -10,6 +11,7 @@ export function Event() {
         <Video />
         <Sidebar />
       </main>
+      <Footer />
     </div>
   )
 }
